@@ -1,0 +1,5 @@
+Output printed by java stack for the input where "-" means pop.
+
+it was - the best - of times - - - it was - the - -
+
+Ans - it
