@@ -1,17 +1,27 @@
 import java.util.Scanner;
 import java.util.Arrays;
 /**
- *  class.
- **/
+ * class.
+
+ Class for solution.
+*/
 public class Solution {
+/**
+ * class.
+
+ Class for solution.
+*/
+	Solution() {
+
+	}
     /**
      *  args.
      *
      * @param      args  The arguments
      **/
-    final public static void main(String[] args) {
+    public static void main(final String[] args) {
     /**
-     * 
+     *
      *{ var_description }
      **/
         Scanner scan = new Scanner(System.in);
