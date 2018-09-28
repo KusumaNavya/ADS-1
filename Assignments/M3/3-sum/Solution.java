@@ -5,9 +5,10 @@ import java.util.Arrays;
 
  Class for solution.
 */
-class Solution {
+final class Solution {
 /**
  * class.
+
  Class for solution.
 */
     Solution() {
