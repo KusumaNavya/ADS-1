@@ -5,15 +5,13 @@ import java.util.Arrays;
 
  Class for solution.
 */
-public class Solution {
+class Solution {
 /**
  * class.
-
  Class for solution.
 */
-	Solution() {
-
-	}
+    Solution() {
+    }
     /**
      *  args.
      *
