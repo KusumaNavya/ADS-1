@@ -67,10 +67,13 @@ class LinkedList {
 	public String toString() {
 		String s = "";
 		Node temp = start;
-		while (temp.getNextNode() != null) {
-			s += temp.getName();
-			temp = temp.getNextNode();
+		if (temp == null) {
+			return "Empty linked list";
 		}
+		while (temp.getNextNode() != null) {
+			s += temp.getName() + "";
+			temp = temp.getNextNode();
+		} s += temp.getName();
 		return s;
 	}
 }
