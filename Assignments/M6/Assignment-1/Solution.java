@@ -23,7 +23,8 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
     	
-    	return list.toString();
+    	//return list.toString();
+    	return "";
     }
     
 }
