@@ -20,9 +20,13 @@ class AddLargeNumbers {
 		return digit;
     }
     public static String digitsToNumber(LinkedList list) {
+    	
 
-    	System.out.println(list);
-    	return "";
+
+  //   	ListIterator listIt = list.listIterator();
+		// YourObject sample = listIt.next();//or any of the objects you need in your list
+		// int valueOfSample = sample.getFirstParameter();
+    	return list.toString();
     }
     
 
