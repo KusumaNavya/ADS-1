@@ -13,7 +13,7 @@ class AddLargeNumbers {
     public static String digitsToNumber(LinkedList list) {
     	// String out = list.toString();
     	// return out;
-    	return "sample";
+    	return "";
     }
 
     // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
