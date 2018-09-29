@@ -1,20 +1,30 @@
 import java.util.Scanner;
+/*
+*
+*/
 class AddLargeNumbers {
-    
+    /**
+     * { function_description }
+     *
+     * @param      number  The number
+     *
+     * @return     { description_of_the_return_value }
+     */
     public static LinkedList numberToDigits(String number) {
     	LinkedList digit = new LinkedList();
     	for (int i = 0; i < number.length(); i++) {
 			//System.out.println(number.charAt(i));
 			digit.pushLeft(number.charAt(i));
 		}
-		System.out.println(number);
+		//System.out.println(number);
 		return digit;
     }
     public static String digitsToNumber(LinkedList list) {
-    	// String out = list.toString();
-    	// return out;
+
+    	System.out.println(list);
     	return "";
     }
+    
 
     // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
     // 	LinkedList digit = new LinkedList();
@@ -22,8 +32,11 @@ class AddLargeNumbers {
     // }
 }
 
+/**
+ * Class for solution.
+ */
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         String input = sc.nextLine();
         String p = sc.nextLine();
