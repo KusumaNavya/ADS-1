@@ -6,6 +6,7 @@ class AddLargeNumbers {
     	for (int i = 0; i < number.length(); i++) {
 			System.out.println(number.charAt(i));
 			digit.pushLeft(number.charAt(i));
+			System.out.println(number);
 		}
 		return digit;
     }
@@ -14,10 +15,10 @@ class AddLargeNumbers {
     	return out;
     }
 
-    public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-    	LinkedList digit = new LinkedList();
-    	return digit;
-    }
+    // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+    // 	LinkedList digit = new LinkedList();
+    // 	return digit;
+    // }
 }
 
 public class Solution {
