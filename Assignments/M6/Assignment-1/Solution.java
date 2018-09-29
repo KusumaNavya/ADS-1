@@ -23,8 +23,15 @@ class AddLargeNumbers {
 
     public static String digitsToNumber(LinkedList list) {
     	
-    	//return list.toString();
     	return "";
+    	// list.toString();
+    	// list = read.nextLine();
+     //    String reverse = "";
+     //    for(int i = list.length() - 1; i >= 0; i--)
+     //    {
+     //        reverse = reverse + list.charAt(i);
+     //    }
+    	//return list.toString();
     }
     
 }
