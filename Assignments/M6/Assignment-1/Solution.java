@@ -12,13 +12,15 @@ class AddLargeNumbers {
      */
     public static LinkedList numberToDigits(String number) {
     	LinkedList digit = new LinkedList();
-    	for (int i = 0; i < number.length(); i++) {
+    	String[] numberto = number.split("");
+    	for (int i = 0; i < numberto.length; i++) {
 			//System.out.println(number.charAt(i));
-			digit.pushLeft(number.charAt(i));
+			digit.pushLeft(Integer.parseInt(numberto[i]));
 		}
 		//System.out.println(number);
 		return digit;
     }
+
     public static String digitsToNumber(LinkedList list) {
     	
 
