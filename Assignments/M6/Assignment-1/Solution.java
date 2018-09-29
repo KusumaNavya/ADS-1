@@ -4,7 +4,7 @@ class AddLargeNumbers {
     public static LinkedList numberToDigits(String number) {
     	LinkedList digit = new LinkedList();
     	for (int i = 0; i < number.length(); i++) {
-			System.out.println(number.charAt(i));
+			//System.out.println(number.charAt(i));
 			digit.pushLeft(number.charAt(i));
 		}
 		System.out.println(number);
