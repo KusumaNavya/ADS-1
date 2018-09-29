@@ -6,8 +6,8 @@ class AddLargeNumbers {
     	for (int i = 0; i < number.length(); i++) {
 			System.out.println(number.charAt(i));
 			digit.pushLeft(number.charAt(i));
-			System.out.println(number);
 		}
+		System.out.println(number);
 		return digit;
     }
     public static String digitsToNumber(LinkedList list) {
