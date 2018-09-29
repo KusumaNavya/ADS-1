@@ -17,25 +17,15 @@ class AddLargeNumbers {
 			//System.out.println(number.charAt(i));
 			digit.pushLeft(Integer.parseInt(numberto[i]));
 		}
-		//System.out.println(number);
+		System.out.println(number);
 		return digit;
     }
 
     public static String digitsToNumber(LinkedList list) {
     	
-
-
-  //   	ListIterator listIt = list.listIterator();
-		// YourObject sample = listIt.next();//or any of the objects you need in your list
-		// int valueOfSample = sample.getFirstParameter();
     	return list.toString();
     }
     
-
-    // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
-    // 	LinkedList digit = new LinkedList();
-    // 	return digit;
-    // }
 }
 
 /**
