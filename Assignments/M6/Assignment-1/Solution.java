@@ -11,8 +11,9 @@ class AddLargeNumbers {
 		return digit;
     }
     public static String digitsToNumber(LinkedList list) {
-    	String out = list.toString();
-    	return out;
+    	// String out = list.toString();
+    	// return out;
+    	return "sample";
     }
 
     // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
