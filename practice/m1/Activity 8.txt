@@ -1,0 +1,10 @@
+There are 4 different techniques to solve the given problem. They are -
+1. Quick find
+2. Quick Union
+3. Weighted Quick Union
+4. Weighted Quick Union with Path Suppression
+
+Weighted quick union with path compression is the best way in solving for the following reasons -
+1. The complexity of this method is O(log N).
+2. It can take up to 2 to the exponent of 65536 inputs and compute them in 6 seconds.
+3. It makes the final tree as flat as possible. This reduces the time taken to traverse the final tree.
