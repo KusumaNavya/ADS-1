@@ -21,16 +21,12 @@ class Solution {
                 ll.insertAt(Integer.parseInt(input[1]), input[2]);
                 ll.display();
             } catch (Exception e) {
-                    System.out.println(
-                    "Can't insert at this position.");
+                    System.out.println("Can't insert at this position.");
                 }
                 break;
                 case "reverse" :
                 try {
                 ll.reverse();
-
-
-
                 ll.display();
             } catch (Exception e) {
                 System.out.println("No elements to reverse.");
@@ -64,7 +60,7 @@ class LinkedList {
     }
     Node insertAt(int index, Node first, Node element, int count) {
         if (count == index) {
-            element.next = first;
+            element.next = null;
             return element;
         }
         first.next = insertAt(index, first.next, element, count+1);
