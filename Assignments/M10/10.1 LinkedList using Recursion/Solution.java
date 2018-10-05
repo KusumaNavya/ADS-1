@@ -61,6 +61,7 @@ class LinkedList {
     Node insertAt(int index, Node first, Node element, int count) {
         if (count == index) {
             element.next = first;
+            size++;
             return element;
         }
         first.next = insertAt(index, first.next, element, count+1);
