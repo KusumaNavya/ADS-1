@@ -65,7 +65,6 @@ class LinkedList {
             return element;
         }
         first.next = insertAt(index, first.next, element, count+1);
-        size++;
         return first;
     }
     void reverse() throws Exception {
@@ -87,7 +86,7 @@ class LinkedList {
         String str = "";
         while(temp != null) {
             str += temp.data + ",";
-        temp = temp.next;
+            temp = temp.next;
         }
         System.out.println(str.substring(0, str.length()-2));
     }
