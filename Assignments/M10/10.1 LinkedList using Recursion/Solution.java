@@ -80,12 +80,14 @@ class LinkedList {
         } else {
             first = prev;
         }
+
+        
     }
     void display() {
         Node temp = first;
         String str = "";
         while(temp != null) {
-            str += temp.data + ",";
+            str += temp.data + ", ";
             temp = temp.next;
         }
         System.out.println(str.substring(0, str.length()-2));
