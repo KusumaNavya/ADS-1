@@ -20,14 +20,14 @@ class Solution {
             sb.append(sc.nextLine() + "#");
         }
         String[] lines = sb.toString().split("#");
-        Student[] students = new Student[7];
+        Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
             students[i++] = new Student(tokens[0],
                 Integer.parseInt(tokens[1]),
                 Integer.parseInt(tokens[2]),
-                Integer.parseInt(tokens[2 + 1]),
-                Integer.parseInt(tokens[2 + 2]),
+                Integer.parseInt(tokens[3]),
+                Integer.parseInt(tokens[4]),
                 Integer.parseInt(tokens[5]),
                 tokens[6]);
         }
