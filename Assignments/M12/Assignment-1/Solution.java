@@ -22,12 +22,15 @@ class Solution {
 	 * @param      args  The arguments
 	 */
 	public static void main(final String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
         int i = 0;
-        while (sc.hasNext()) {
-            sb.append(sc.nextLine() + ",");
-        }
+        int qualified = Integer.parseInt(scan.nextLine());
+        int vacancies = Integer.parseInt(scan.nextLine());
+        int unreserved = Integer.parseInt(scan.nextLine());
+        int bc = Integer.parseInt(scan.nextLine());
+        int sc = Integer.parseInt(scan.nextLine());
+        int st = Integer.parseInt(scan.nextLine());
         String[] lines = sb.toString().split(",");
         Student[] students = new Student[lines.length];
         for (String line : lines) {
