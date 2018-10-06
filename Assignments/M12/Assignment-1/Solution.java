@@ -20,6 +20,7 @@ class Solution {
             sb.append(sc.nextLine() + "#");
         }
         String[] lines = sb.toString().split("#");
+        System.out.println(lines);
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
