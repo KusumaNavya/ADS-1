@@ -1,0 +1,69 @@
+########## Testcase 0: Failed ##########
+Expected Output: 
+Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=14][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=26][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=42][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=60][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=77][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=92][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=105][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+Australia,India,SouthAfrica,England,Zimbabwe,Bangladesh,Ireland
+----------------------------------------
+########## Testcase 1: Failed ##########
+Expected Output: 
+Zimbabwe,SouthAfrica,Bangladesh,Ireland
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=18][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=35][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=50][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=63][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+Zimbabwe,SouthAfrica,Bangladesh,Ireland
+----------------------------------------
+########## Testcase 2: Failed ##########
+Expected Output: 
+Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=14][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=26][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=42][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=60][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=77][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=92][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=105][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+Australia,Zimbabwe,SouthAfrica,England,Ireland,Bangladesh,India
+----------------------------------------
+########## Testcase 3: Failed ##########
+Expected Output: 
+Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=14][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=26][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=42][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=60][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=78][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=94][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=107][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+Zimbabwe,Bangladesh,Australia,Ireland,SouthAfrica,India,England
+----------------------------------------
+########## Testcase 4: Failed ##########
+Expected Output: 
+England
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=13][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+England
+----------------------------------------
+########## Testcase 5: Failed ##########
+Expected Output: 
+Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
+Your Output: 
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=17][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=32][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=51][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=72][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=92][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=110][match valid=true][need input=false][source closed=false][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+java.util.Scanner[delimiters=\p{javaWhitespace}+][position=125][match valid=true][need input=false][source closed=true][skipped=false][group separator=\,][decimal separator=\.][positive prefix=][negative prefix=\Q-\E][positive suffix=][negative suffix=][NaN string=\QNaN\E][infinity string=\Q?\E]
+Ireland,Zimbabwe,Bangladesh,SouthAfrica,Australia,India,England
+----------------------------------------
