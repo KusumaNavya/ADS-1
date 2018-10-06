@@ -7,7 +7,7 @@ class Solution {
 	public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
-        int i = 6;
+        int i = 0;
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "#");
         }
