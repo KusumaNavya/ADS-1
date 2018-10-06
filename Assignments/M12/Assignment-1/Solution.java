@@ -1,5 +1,14 @@
+/**
+ *  importing scanner
+ */
 import java.util.Scanner;
+/**
+ * 
+ */
 import java.util.Arrays;
+/**
+ * Class for solution.
+ */
 class Solution {
 	/**
 	 * Constructs the object.
@@ -8,7 +17,7 @@ class Solution {
 		/*empty constructor*/
 	}
 	/**
-	 * { function_description }
+	 * main method
 	 *
 	 * @param      args  The arguments
 	 */
