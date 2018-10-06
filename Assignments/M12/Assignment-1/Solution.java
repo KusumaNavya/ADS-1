@@ -15,12 +15,11 @@ class Solution {
 	public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
-        int i = 6;
+        int i = 0;
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "#");
         }
         String[] lines = sb.toString().split("#");
-        System.out.println(lines);
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
