@@ -23,7 +23,7 @@ class Solution {
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");
-            students[i++] = new Student(tokens[0],
+            students[i++] = new Student(tokens[1],
                 Integer.parseInt(tokens[1]),
                 Integer.parseInt(tokens[2]),
                 Integer.parseInt(tokens[2 + 1]),
