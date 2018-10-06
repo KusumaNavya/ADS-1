@@ -17,9 +17,9 @@ class Solution {
         StringBuffer sb = new StringBuffer();
         int i = 0;
         while (sc.hasNext()) {
-            sb.append(sc.nextLine() + "#");
+            sb.append(sc.nextLine() + ",");
         }
-        String[] lines = sb.toString().split("#");
+        String[] lines = sb.toString().split(",");
         Student[] students = new Student[lines.length];
         for (String line : lines) {
             String[] tokens = line.split(",");

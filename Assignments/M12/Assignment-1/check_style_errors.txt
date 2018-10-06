@@ -1,13 +1,4 @@
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:7:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:8:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:9:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:10:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:11:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:23: Line is longer than 80 characters (found 148). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M12\Assignment-1\Student.java:32: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 1 errors.

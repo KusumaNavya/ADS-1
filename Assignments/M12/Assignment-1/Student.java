@@ -2,14 +2,35 @@
  * Class for student.
  */
 class Student implements Comparable<Student> {
-    private String name;
-    private int dob;
-    private int marks1;
-    private int marks2;
-    private int marks3;
-    private int total;
-    private String category;
     /**
+    *
+    */
+    private String name;
+    /**
+    *
+    */
+    private int dob;
+    /**
+    *
+    */
+    private int marks1;
+    /**
+    *
+    */
+    private int marks2;
+    /**
+    *
+    */
+    private int marks3;
+    /**
+    *
+    */
+    private int total;
+    /**
+    *
+    */
+    private String category;
+    /**.
      * Constructs the object.
      *
      * @param      namee      The namee
@@ -20,7 +41,9 @@ class Student implements Comparable<Student> {
      * @param      totall     The totall
      * @param      categoryy  The categoryy
      */
-    Student(final String namee, final int dobb, final int marks11, final int marks22, final int marks33, final int totall, final String categoryy) {
+    Student(final String namee, final int dobb, final int marks11,
+             final int marks22, final int marks33, final int totall,
+              final String categoryy) {
         this.name = namee;
         this.dob = dobb;
         this.marks1 = marks11;
@@ -29,12 +52,12 @@ class Student implements Comparable<Student> {
         this.total = totall;
         this.category = categoryy;
     }
-    /**
-     * { function_description }
+    /**.
+     * compareTo menthod used to compare two elements
      *
-     * @param      that  The that
+     * @param      that  other element which is being compared with this element
      *
-     * @return     { description_of_the_return_value }
+     * @return     returns an integer
      */
     public int compareTo(final Student that) {
         if (this.total > that.total) {
