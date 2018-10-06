@@ -1,13 +1,21 @@
 import java.util.Scanner;
 import java.util.Arrays;
 class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
-
+		/*empty constructor*/
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
 	public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         StringBuffer sb = new StringBuffer();
-        int i = 0;
+        int i = 6;
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "#");
         }
