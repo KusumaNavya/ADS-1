@@ -29,7 +29,6 @@ public final class Solution {
         int i = 0;
         while (sc.hasNext()) {
             sb.append(sc.nextLine() + "#");
-            System.out.println(sc);
         }
         String[] lines = sb.toString().split("#");
         Team[] teams = new Team[lines.length];
