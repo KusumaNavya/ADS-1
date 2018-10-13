@@ -224,7 +224,12 @@ public class MinPQ<Key> implements Iterable<Key> {
     public Iterator<Key> iterator() {
         return new HeapIterator();
     }
-
+    public void print() {
+        for (int i = 1; i <= 5; i++) {
+            // System.out.println(pq[i]);
+            System.out.println(delMin());
+        }
+    }
     private class HeapIterator implements Iterator<Key> {
         // create a new pq
         private MinPQ<Key> copy;

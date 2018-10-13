@@ -25,5 +25,9 @@ public final class Solution {
 			max.insert(a);
 			min.insert(a);
 		}
+		System.out.println("\n");
+		max.print();
+		System.out.println("\n");
+		min.print();
 	}
 }

@@ -73,6 +73,19 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
 
+
+Stock@5b464ce8
+Stock@57829d67
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+
+
+Stock@3d24753a
+Stock@59a6e353
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -149,6 +162,19 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
 
+
+Stock@5b464ce8
+Stock@57829d67
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+
+
+Stock@3d24753a
+Stock@59a6e353
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -230,6 +256,19 @@ WABCO India 0.33
 3
 Your Output: 
 
+
+Stock@5b464ce8
+Stock@57829d67
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+
+
+Stock@3d24753a
+Stock@59a6e353
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -311,6 +350,19 @@ Chola Inv Fin 1.47
 0
 Your Output: 
 
+
+Stock@5b464ce8
+Stock@57829d67
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+
+
+Stock@3d24753a
+Stock@59a6e353
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -407,4 +459,17 @@ TTK Prestige
 Tasty Bite Eat
 Your Output: 
 
+
+Stock@5b464ce8
+Stock@57829d67
+Stock@19dfb72a
+Stock@17c68925
+Stock@7e0ea639
+
+
+Stock@3d24753a
+Stock@59a6e353
+Stock@7a0ac6e3
+Stock@71be98f5
+Stock@6fadae5d
 ----------------------------------------
