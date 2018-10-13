@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:5: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:9: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:13: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:42:33: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:45: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M18\Week-3_Assignment-1\Stock.java:60: Line has trailing spaces. [RegexpSingleline]
+Audit done.
+Checkstyle ends with 7 errors.
