@@ -226,7 +226,6 @@ public class MinPQ<Key> implements Iterable<Key> {
     }
     public void print() {
         for (int i = 1; i <= 5; i++) {
-            // System.out.println(pq[i]);
             System.out.println(delMin());
         }
     }
