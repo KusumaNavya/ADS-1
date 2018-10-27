@@ -1,5 +1,11 @@
 import java.util.Scanner;
+/**
+ * {solution class}
+ */
 public final class Solution {
+    /**
+     * empty constructor.
+     */
     private Solution() {
         //empty
     }
