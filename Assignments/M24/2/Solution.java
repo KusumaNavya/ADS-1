@@ -29,7 +29,7 @@ public final class Solution {
         int querys = Integer.parseInt(scan.nextLine());
         for (int j = 0; j < querys; j++) {
             String[] tokens = scan.nextLine().split(" ");
-            switch (tokens[2]) {
+            switch (tokens[0]) {
             case "BE":
                 System.out.println(part.get(
                         Integer.parseInt(tokens[1])).getName());
