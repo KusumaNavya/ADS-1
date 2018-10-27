@@ -30,7 +30,7 @@ public final class Solution {
         for (int j = 0; j < querys; j++) {
             String[] tokens = scan.nextLine().split(" ");
             switch (tokens[2]) {
-            case "1":
+            case "BE":
                 try {
                     System.out.println(part.get(
                         Integer.parseInt(tokens[1])).getName());
@@ -38,10 +38,18 @@ public final class Solution {
                     System.out.println("Student doesn't exists...");
                 }
                 break;
-            case "2":
+            case "LE":
                 try {
                     System.out.println(part.get(
-                        Integer.parseInt(tokens[1])).getMarks());
+                        Integer.parseInt(tokens[1])).getName());
+                } catch(Exception e) {
+                    System.out.println("Student doesn't exists...");
+                }
+                break;
+            case "GE":
+                try {
+                    System.out.println(part.get(
+                        Integer.parseInt(tokens[1])).getName());
                 } catch(Exception e) {
                     System.out.println("Student doesn't exists...");
                 }
