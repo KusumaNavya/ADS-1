@@ -31,28 +31,16 @@ public final class Solution {
             String[] tokens = scan.nextLine().split(" ");
             switch (tokens[2]) {
             case "BE":
-                try {
-                    System.out.println(part.get(
+                System.out.println(part.get(
                         Integer.parseInt(tokens[1])).getName());
-                } catch(Exception e) {
-                    System.out.println("Student doesn't exists...");
-                }
                 break;
             case "LE":
-                try {
                     System.out.println(part.get(
                         Integer.parseInt(tokens[1])).getName());
-                } catch(Exception e) {
-                    System.out.println("Student doesn't exists...");
-                }
                 break;
             case "GE":
-                try {
                     System.out.println(part.get(
                         Integer.parseInt(tokens[1])).getName());
-                } catch(Exception e) {
-                    System.out.println("Student doesn't exists...");
-                }
                 break;
             default:
             break;
