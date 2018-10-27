@@ -1,12 +1,2 @@
 Starting audit...
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:5: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:5:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:9: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:13: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:30: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:30:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:35: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:43: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M24\1\Student.java:52: First sentence should end with a period. [JavadocStyle]
 Audit done.
-Checkstyle ends with 9 errors.
