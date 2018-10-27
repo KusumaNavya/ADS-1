@@ -19,7 +19,7 @@ public final class Solution {
         Scanner scan = new Scanner(System.in);
         int lines = Integer.parseInt(scan.nextLine());
         LinearProbingHashST<Integer, Student> part =
-                new LinearProbingHashST<>(three * lines);
+                new LinearProbingHashST<>(lines);
         for (int i = 0; i < lines; i++) {
             String[] tokens = scan.nextLine().split(",");
             Student list = new Student(Integer.parseInt(tokens[0]),

@@ -25,7 +25,6 @@ public class LinearProbingHashST<Key, Value> {
         keys = (Key[])   new Object[m];
         vals = (Value[]) new Object[m];
     }
-
     /**
      * Returns the number of key-value pairs in this symbol table.
      *
@@ -34,7 +33,6 @@ public class LinearProbingHashST<Key, Value> {
     public int size() {
         return n;
     }
-
     /**
      * Returns true if this symbol table is empty.
      *
@@ -44,7 +42,6 @@ public class LinearProbingHashST<Key, Value> {
     public boolean isEmpty() {
         return size() == 0;
     }
-
     /**
      * Returns true if this symbol table contains the specified key.
      *
@@ -57,14 +54,12 @@ public class LinearProbingHashST<Key, Value> {
         if (key == null) throw new IllegalArgumentException("argument to contains() is null");
         return get(key) != null;
     }
-
     // hash function for keys - returns value between 0 and M-1
     private int hash(Key key) {
         // char c = (char) key;
         // int k = c;
         return (11 * key.hashCode()) % m;
     }
-
     // resizes the hash table to the given capacity by re-hashing all of the keys
     private void resize(int capacity) {
         LinearProbingHashST<Key, Value> temp = new LinearProbingHashST<Key, Value>(capacity);
