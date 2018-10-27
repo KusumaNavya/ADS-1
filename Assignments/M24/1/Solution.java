@@ -15,7 +15,6 @@ public final class Solution {
      * @param      args  The arguments
      */
     public static void main(String[] args) {
-        final int three = 3;
         Scanner scan = new Scanner(System.in);
         int lines = Integer.parseInt(scan.nextLine());
         LinearProbingHashST<Integer, Student> part =
