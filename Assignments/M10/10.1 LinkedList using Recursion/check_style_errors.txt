@@ -1,6 +1,6 @@
 Starting audit...
 [ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M10\10.1 LinkedList using Recursion\Solution.java:5:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M10\10.1 LinkedList using Recursion\Solution.java:7: First sentence should end with a period. [JavadocStyle]
-[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M10\10.1 LinkedList using Recursion\Solution.java:35:27: Empty statement. [EmptyStatement]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M10\10.1 LinkedList using Recursion\Solution.java:11: First sentence should end with a period. [JavadocStyle]
+[ERROR] C:\Users\navya\OneDrive\Desktop\MSIT\1ST YEAR\ADS-1\Assignments\M10\10.1 LinkedList using Recursion\Solution.java:39:27: Empty statement. [EmptyStatement]
 Audit done.
 Checkstyle ends with 3 errors.
