@@ -14,7 +14,6 @@ class Solution {
      * @param      args  The arguments
      */
     public static void main(final String[] args) {
-
         Scanner s = new Scanner(System.in);
         LinkedList ll = new LinkedList();
         while (s.hasNextLine()) {
@@ -36,7 +35,7 @@ class Solution {
                 System.out.println("No elements to reverse.");
                 }
                 break;
-                default : ;
+                default:;
             }
         }
     }
